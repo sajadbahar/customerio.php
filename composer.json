@@ -1,0 +1,22 @@
+{
+    "name": "narsic/customerio",
+    "version": "0.1",
+    "type": "customerio-api",
+    "description": "Customerio PHP API Wrapper 1.*",
+    "keywords": ["Customer.id", "Customerio", "newsletter", "api"],
+    "homepage": "https://github.com/narsic/customerio.php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "narsic",
+            "email": "narsicnet@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "target-dir": "Narsic/Customerio",
+    "autoload": {
+        "psr-0": { "Narsic\\Customerio\\": "" }
+    }
+}
